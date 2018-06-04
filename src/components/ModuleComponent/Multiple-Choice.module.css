@@ -1,0 +1,41 @@
+.icon {
+  display: none;
+}
+
+.choices {
+  background: #f6f6f7;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 12.5px;
+  margin: 0 0 20px;
+}
+
+.choice {
+  padding: 12.5px;
+  background: #fff;
+  margin: 12.5px;
+  width: 100%;
+  min-height: 100px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+@media (min-width: 72em) {
+  .choice {
+    width: calc(50% - 25px);
+  }
+}
+
+.choices .icon {
+  display: none;
+}
+
+.choicesChosen .icon {
+  display: block;
+}
+
+.answer {
+  flex: 1;
+  padding: 10px;
+}

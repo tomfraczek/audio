@@ -1,0 +1,17 @@
+Todo:
+  ✔ ModuleComponent: don't delete Components when hiding them @done(18-03-13 17:00)
+  ☐ Cache: cache resources for a day, add check when downloading
+  ✔ Multiple-Choice and the make random once thing: @done(18-03-13 17:03)
+    * Issue is we need to pass props down when user clicks an answer
+    * however once() just returns the original component, which didn't know
+    * if answer was correct. Currently just use CSS which is "ok"
+    * Use a HOF type thing
+  ✔ State management of multiple choice questions is flat broke @bug @done(18-03-14 11:21)
+  ☐ got bored? MAKE TESTS! @critical
+  ✔ Assessment page @done(18-03-15 11:57)
+    ✔ Highlight selected answers @done(18-03-15 11:57)
+    ✔ shuffle w/ class @done(18-03-15 11:57)
+  ✘ redo how choices are shuffled totally, probably need to alter api @cancelled(18-03-15 09:15)
+  ✔ Authorisation - Protected routes @done(18-03-15 14:26)
+  ☐ Add % done on course/module
+  ☐ Show courses in progress on home page

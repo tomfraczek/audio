@@ -1,0 +1,77 @@
+.label {
+  margin: 0 0 10px;
+  display: block;
+  font-size: 1rem;
+}
+
+.heading {
+  margin: 0 0 5px;
+}
+
+.input {
+  padding: 8px 12px;
+  width: 100%;
+  border: 1px solid #adadad;
+  font-size: 1rem;
+}
+
+.select {
+  padding: 8px 12px;
+  width: 100%;
+  font-size: 1rem;
+}
+
+.form {
+  max-width: 460px;
+  margin: 0 auto;
+}
+
+.button {
+  padding: 8px 12px;
+  display: block;
+  margin: 0 auto 10px;
+  min-width: 120px;
+  border: 1px solid #adadad;
+  font-size: 1rem;
+}
+
+.button[type="submit"]:hover {
+  background: #dff4ff;
+}
+
+.errors {
+  background: #fcf684;
+  border: 1px solid;
+  color: #d9534f;
+  padding: 8px 12px;
+  margin: 0 auto 10px;
+  max-width: 460px;
+}
+
+.success {
+  background: #b1fba6;
+  border: 1px solid;
+  color: #79ab67;
+  padding: 8px 12px;
+  margin: 0 auto 10px;
+  max-width: 460px;
+}
+
+.checkbox {
+  display: flex;
+  margin: 0 0 10px;
+}
+
+.checkbox input {
+  margin: 0 10px 0 0;
+}
+
+.inline {
+  display: flex;
+}
+
+.inline .button {
+  margin: 0;
+  flex: 1 0 auto;
+  border-left: 0;
+}

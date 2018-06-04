@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Has loading thing 1`] = `
+<div
+  className={undefined}
+>
+  <div
+    className={undefined}
+  >
+    <div
+      className={undefined}
+    >
+      <img
+        alt="Logo spinning"
+        src="spinner.png"
+      />
+    </div>
+    <div
+      className={undefined}
+    >
+      <h2>
+        Works
+      </h2>
+    </div>
+  </div>
+</div>
+`;

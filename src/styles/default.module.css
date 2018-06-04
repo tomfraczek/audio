@@ -1,0 +1,39 @@
+.content {
+  background: #fff;
+  flex: 1;
+  padding: 25px;
+}
+
+.link {
+  border: 0;
+  background: transparent;
+  color: #0074D9;
+  text-decoration: underline;
+  text-decoration-skip-ink: auto;
+  font-size: 1.2rem;
+  font-weight: 400;
+  cursor: pointer;
+  padding: 0;
+}
+
+.link:hover {
+  background: transparent;
+}
+
+.errors {
+  background: #fcf684;
+  color: #d9534f;
+  border: 1px solid;
+  padding: 16px 24px;
+  margin: 0 auto 20px;
+  width: 100%;
+}
+
+.success {
+  background: #b1fba6;
+  color: #79ab67;
+  border: 1px solid;
+  padding: 16px 24px;
+  margin: 0 auto 20px;
+  width: 100%;
+}

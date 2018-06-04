@@ -1,0 +1,78 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 25px;
+}
+
+@media (min-width: 72em) {
+  .header {
+    padding: 0;
+  }
+}
+
+.progress {
+  font-size: 2rem;
+  text-align: right;
+}
+
+.page {
+  background: #fff;
+  flex: 1 0 auto;
+}
+
+@media (min-width: 72em) {
+  .page {
+    display: flex;
+    padding: 25px;
+  }
+}
+
+.introduction {
+  padding: 25px;
+}
+
+.about {
+  max-width: 460px;
+}
+
+.content {
+  flex: 1;
+  padding: 25px;
+}
+
+.module {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  background: #f6f6f7;
+  text-decoration: none;
+  color: initial;
+}
+
+.module > div {
+  padding: 30px;
+}
+
+.moduleTitle {
+  flex: 1 0 auto;
+  color: #333;
+}
+
+.assessment {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  background: #f6f6f7;
+  text-decoration: none;
+  color: initial;
+}
+
+.assessmentTitle {
+  flex: 1 0 auto;
+  color: #333;  
+}
+
+.assessment > div {
+  padding: 30px;
+}

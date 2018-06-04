@@ -1,0 +1,21 @@
+
+.footer {
+  color: inherit;
+  width: 100%;
+  margin: 0 auto;
+  padding: 30px 15px;
+  text-align: center;
+}
+
+@media (min-width: 72em) {
+  .footer {
+    width: calc(100% - 12.5em);
+    padding: 30px 0;
+  }
+}
+
+@media (min-width: 100em) {
+  .footer {
+    width: 87.5em;
+  }
+}

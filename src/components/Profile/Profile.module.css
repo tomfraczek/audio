@@ -1,0 +1,23 @@
+.field {
+  max-width: 460px;
+  margin: 0 auto 20px;
+  border: 1px solid #bcbbc5;
+  padding: 15px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+}
+
+.value {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 0 0 10px;
+}
+
+.edit {
+  font-size: 0.8rem;
+  text-decoration: none;
+  margin: 0 0 0 auto;
+}

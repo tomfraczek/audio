@@ -1,0 +1,46 @@
+.link {
+  text-decoration: none;
+}
+
+.course {
+  display: flex;
+  flex-direction: column;
+  min-height: 500px;
+  width: 100%;
+  margin: 0 0 100px;
+}
+
+@media (min-width: 72em) {
+  .course {
+    flex-direction: row;
+  }
+  .course > * {
+    width: 50%;
+  }
+}
+
+.image {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 250px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  text-decoration: none;
+  color: initial;
+  padding: 20px;
+}
+
+.content h2 {
+  margin: 0 0 20px;
+}
+
+.content button {
+  cursor: pointer;
+}

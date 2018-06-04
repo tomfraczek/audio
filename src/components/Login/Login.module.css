@@ -1,0 +1,17 @@
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
+
+.links {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.links > * {
+  margin: 10px;
+}

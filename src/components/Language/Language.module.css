@@ -1,0 +1,36 @@
+.page {
+  background: #fff;
+  flex: 1 0 auto;
+}
+
+@media (min-width: 72em) {
+  .page {
+    display: flex;
+    padding: 25px;
+  }
+}
+
+.content {
+  padding: 25px;
+  background: #fff;
+  flex: 1 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.confirm {
+  margin: auto 0 0;
+}
+
+.help {
+  color: red;
+}
+
+.current {
+  text-decoration: underline;
+  margin: 0 10px 10px 0;
+}
+
+.notCurrent {
+  margin: 0 10px 10px 0;
+}

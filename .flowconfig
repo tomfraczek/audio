@@ -1,0 +1,13 @@
+[ignore]
+suppress_comment= \\(.\\|\n\\)*\\$FlowFixMe
+.*\.bower\.json
+
+[include]
+
+[libs]
+
+[lints]
+
+[options]
+
+[strict]
